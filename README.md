@@ -4,6 +4,13 @@
 
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+Installation
+osTicket comes with its own web-based installer to help guide you through the installation process without the frustration. While the installer provides step by step guide during the installation process, it’s important and helpful to have general knowledge about Web servers, PHP and MySQL.
+
+Prerequisites
+To install osTicket, your server must have Apache/LiteSpeed/IIS webserver (with the URL Rewrite module installed/enabled), PHP 8.1 - 8.2 (8.2 recommended), and MySQL 5.0 (or better) installed. If you are unsure whether your server meets these requirements, please check with your host or webmaster before proceeding with the installation.
+
+You will need one MySQL database with valid user, password and hostname handy during installation. MySQL user must have FULL privileges on the database. If you are unsure whether you have these details or if the user has sufficient permissions, please consult your host or database admin before proceeding.
 
 
 <h2>Video Demonstration</h2>
